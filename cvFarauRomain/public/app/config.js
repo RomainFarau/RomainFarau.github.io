@@ -1,10 +1,10 @@
 "use strict"
-var sample=angular.module("cvModule",['ui.router']);
-sample.config(function ($stateProvider, $urlRouteProvider){
-	$urlRouteProvider.otherwise('/');
+angular.module("cvModule",['ui.router'])
+.config(function ($stateProvider, $urlRouterProvider){
+	$urlRouterProvider.otherwise('/');
 
 	$stateProvider
-		.state('home', {
+		.state('index', {
 			url:'/',
 			views: {
 				'header': {
