@@ -1,24 +1,26 @@
 "use strict"
-var sample=angular.module("cvModule",['ngRoute']);
-sample.config(['$routeProvider',
-function ($routeProvider){
-	return $routeProvider.when('/home', {
-		templateUrl: 'view/home.html',
-		controller: 'cvModController'
-	}).when('/contact', {
-		templateUrl: 'view/contact.html',
-		controller: 'contactController'
-	}).otherwise({
-		redirectTo: '/home'
-	});
-}]);
+var sample=angular.module("cvModule",['ui.router']);
+sample.config(function ($stateProvider, $urlRouteProvider){
+	$urlRouteProvider.otherwise('/');
 
-
-
-sample.controller('cvModController', function() {
-	//var cvmodCtrl=this;
+	$stateProvider
+		.state('home', {
+			url:'/',
+			views: {
+				'header': {
+					templateUrl: 'view/header.html',
+					controller: 'headerController'
+				},
+				'content': {
+					templateUrl: 'view/home.html',
+					controller: 'cvModController'
+				},
+				'footer':{
+					templateUrl: 'view/footer.html',
+					controller: 'footerController'
+				}
+			}
+		})
 });
 
-sample.controller('contactController', function() {
-	//var cvmodCtrl=this;
-});
+
