@@ -21,6 +21,11 @@ angular.module("cvModule",['ui.router'])
 				}
 			}
 		})
+		.state('experience', {
+			'content': {
+				templateUrl: 'view/experience.html'
+			}
+		})
 });
 
 
