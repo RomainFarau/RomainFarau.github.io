@@ -1,5 +1,5 @@
 "use strict"
-angular.module("cvModule",['ui.router'])
+angular.module("cvModule",['ui.router','ui.bootstrap'])
 .config(function ($stateProvider, $urlRouterProvider){
 	$urlRouterProvider.otherwise('/');
 
@@ -8,22 +8,27 @@ angular.module("cvModule",['ui.router'])
 			url:'/',
 			views: {
 				'header': {
-					templateUrl: 'view/header.html',
-					controller: 'headerController'
+					templateUrl: 'view/header.html'
 				},
 				'content': {
-					templateUrl: 'view/home.html',
-					controller: 'cvModController'
+					templateUrl: 'view/home.html'
 				},
 				'footer':{
-					templateUrl: 'view/footer.html',
-					controller: 'footerController'
+					templateUrl: 'view/footer.html'
 				}
 			}
 		})
 		.state('experience', {
-			'content': {
-				templateUrl: 'view/experience.html'
+			views:{
+				'header': {
+						templateUrl: 'view/header.html'
+					},
+				'content': {
+					templateUrl: 'view/experience.html'
+				},
+				'footer':{
+						templateUrl: 'view/footer.html'
+				}
 			}
 		})
 });
