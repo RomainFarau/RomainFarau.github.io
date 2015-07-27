@@ -12,3 +12,7 @@
     .navbar .navbar-collapse .navbar-brand {
         text-align: center;
     }
+
+.aside{
+	float: left;
+}
