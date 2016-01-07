@@ -8,7 +8,7 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			url:'/',
 			views: {
 				'header': {
-					templateUrl: 'view/header.html'
+					templateUrl: 'public/view/header.html'
 				},
 				'content': {
 					templateUrl: 'view/home.html'
