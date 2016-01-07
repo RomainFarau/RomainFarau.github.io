@@ -19,11 +19,11 @@
 
 .tuile{
     background-color:  #add8e6;
-    padding : 2em;
+    padding : 1em;
     border-radius: 0.5em;
     border: solid black 0.1em;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
 }
 
 [ng-click],
