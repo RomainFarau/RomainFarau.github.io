@@ -3,13 +3,13 @@
 }
 
 
-.navbar .navbar-nav {
+.navbar, .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top;
 }
 
-.navbar .navbar-collapse .navbar-brand {
+.navbar, .navbar-collapse, .navbar-brand {
     text-align: center;
 }
 
@@ -17,7 +17,7 @@
 	float: left;
 }
 
-.competencesHome .formationsHome .experiencesHome .loisirsHome{
+.competencesHome, .formationsHome, .experiencesHome, .loisirsHome{
     background-color:  #add8e6;
 
 }
