@@ -1,11 +1,11 @@
 "use strict"
 angular.module("cvModule",['ui.router','ui.bootstrap'])
 .config(function ($stateProvider, $urlRouterProvider){
-	$urlRouterProvider.otherwise('/');
+	$urlRouterProvider.otherwise('/accueil');
 
 	$stateProvider
 		.state('index', {
-			url:'/',
+			url:'/accueil',
 			views: {
 				'header': {
 					templateUrl: 'public/view/header.html'
