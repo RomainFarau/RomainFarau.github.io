@@ -11,10 +11,10 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 					templateUrl: 'public/view/header.html'
 				},
 				'content': {
-					templateUrl: 'view/home.html'
+					templateUrl: 'public/view/home.html'
 				},
 				'footer':{
-					templateUrl: 'view/footer.html'
+					templateUrl: 'public/view/footer.html'
 				}
 			}
 		})
@@ -22,13 +22,13 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			url:'/',
 			views:{
 				'header': {
-						templateUrl: 'view/header.html'
+						templateUrl: 'public/view/header.html'
 					},
 				'content': {
-					templateUrl: 'view/experience.html'
+					templateUrl: 'public/view/experience.html'
 				},
 				'footer':{
-						templateUrl: 'view/footer.html'
+						templateUrl: 'public/view/footer.html'
 				}
 			}
 		})
@@ -36,13 +36,13 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			url:'/',
 			views:{
 				'header': {
-						templateUrl: 'view/header.html'
+						templateUrl: 'public/view/header.html'
 					},
 				'content': {
-					templateUrl: 'view/formations.html'
+					templateUrl: 'public/view/formations.html'
 				},
 				'footer':{
-						templateUrl: 'view/footer.html'
+						templateUrl: 'public/view/footer.html'
 				}
 			}
 		})
@@ -50,13 +50,13 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			url:'/',
 			views:{
 				'header': {
-						templateUrl: 'view/header.html'
+						templateUrl: 'public/view/header.html'
 					},
 				'content': {
-					templateUrl: 'view/competences.html'
+					templateUrl: 'public/view/competences.html'
 				},
 				'footer':{
-						templateUrl: 'view/footer.html'
+						templateUrl: 'public/view/footer.html'
 				}
 			}
 		})
@@ -64,13 +64,13 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			url:'/',
 			views:{
 				'header': {
-						templateUrl: 'view/header.html'
+						templateUrl: 'public/view/header.html'
 					},
 				'content': {
-					templateUrl: 'view/loisirs.html'
+					templateUrl: 'public/view/loisirs.html'
 				},
 				'footer':{
-						templateUrl: 'view/footer.html'
+						templateUrl: 'public/view/footer.html'
 				}
 			}
 		})
