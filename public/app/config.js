@@ -19,7 +19,7 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			}
 		})
 		.state('experience', {
-			url:'/',
+			url:'/experiences',
 			views:{
 				'header': {
 						templateUrl: 'public/view/header.html'
@@ -33,7 +33,7 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			}
 		})
 		.state('formations', {
-			url:'/',
+			url:'/formations',
 			views:{
 				'header': {
 						templateUrl: 'public/view/header.html'
@@ -47,7 +47,7 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			}
 		})
 		.state('competences', {
-			url:'/',
+			url:'/competences',
 			views:{
 				'header': {
 						templateUrl: 'public/view/header.html'
@@ -61,7 +61,7 @@ angular.module("cvModule",['ui.router','ui.bootstrap'])
 			}
 		})
 		.state('loisirs', {
-			url:'/',
+			url:'/loisirs',
 			views:{
 				'header': {
 						templateUrl: 'public/view/header.html'
