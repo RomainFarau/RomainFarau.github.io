@@ -19,8 +19,10 @@
 						<div class="tuile">
 							<h3>Lecture</h3>
 							<ul>
-								<li>Roman</li>
-								<li>Bande dessinée</li>
+								<li class="liClicable" ng-click="showRoman=!showRoman">Roman</li>
+								<p ng-show="showRoman">Le trône de fer, l'Assassin Royal, Sorceleur, Sherlock Holmes, The Wheel Of Times, Harry Potter, A la croisée des mondes, Le seigneur des Anneaux, Drizzt</p>
+								<li class="liClicable" ng-click="showBd=!showBd">Bande dessinée</li>
+								<p ng-show="showBd">Monster, Le troisième testament, Ikigami, Largo Winch, XIII, Fullmetal Alchemist, One Piece, Bleach, Naruto, Billy Bat, Twenty Century Boys, Pluto, Fly, Hunter X Hunter, Lucky Luke, Asterix, Les chevaliers du Zodiaque, Dragon Ball, Dc comics, Marvel, City Hall</p>
 							</ul>
 						</div>
 					</div>
