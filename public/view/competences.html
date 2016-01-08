@@ -8,8 +8,9 @@
 						<div class="tuile">
 							<h3>C++</h3>
 							<ul>
-								<li>Framework Qt</li>
-								<li>Gestion de la mémoire</li>
+								<li class="liClicable" ng-click="showQt=!showQt">Framework Qt</li>
+								<p ng-show="showQt">Création d'une application avec connexion en base de données et affichage sous forme de tableaux.</p>
+								<li class="liClicable">Gestion de la mémoire</li>
 							</ul>
 						</div>
 					</div>
@@ -19,16 +20,16 @@
 						<div class="tuile">
 							<h3>Java/JEE</h3>
 							<ul>
-								<li>JDBC</li>
-								<li>JSP</li> 
-								<li>Servlets</li> 
-								<li>Architecture REST</li>
-								<li>JBoss</li> 
-								<li>JPA</li> 
-								<li>EJB</li> 
-								<li>CDI</li> 
-								<li>framework Spring</li>
-								<li>Maven</li>
+								<li class="liClicable">JDBC</li>
+								<li class="liClicable">JSP</li> 
+								<li class="liClicable">Servlets</li> 
+								<li class="liClicable">Architecture REST</li>
+								<li class="liClicable">JBoss</li> 
+								<li class="liClicable">JPA</li> 
+								<li class="liClicable">EJB</li> 
+								<li class="liClicable">CDI</li> 
+								<li class="liClicable">framework Spring</li>
+								<li class="liClicable">Maven</li>
 							</ul>
 						</div>
 					</div>
@@ -38,9 +39,9 @@
 						<div class="tuile">
 							<H3>IDE</H3>
 							<ul>
-								<li>Qt Creator</li>
-								<li>Eclipse</li>
-								<li>Windows Studio</li>
+								<li class="liClicable">Qt Creator</li>
+								<li class="liClicable">Eclipse</li>
+								<li class="liClicable">Windows Studio</li>
 							</ul>	
 						</div>
 					</div>
@@ -60,8 +61,8 @@
 						<div class="tuile">
 							<h3>Gestion de projet</h3>
 							<ul>
-								<li>Gantt</li>
-								<li>Pertt</li>
+								<li class="liClicable">Gantt</li>
+								<li class="liClicable">Pertt</li>
 							</ul>								
 						</div>
 					</div>
@@ -71,8 +72,8 @@
 						<div class="tuile">
 							<h3>Méthodes agiles</h3>
 							<ul>
-								<li>Scrum</li>
-								<li>Pratique du daily meeting</li>
+								<li class="liClicable" ng-click="showDaily=!showDaily">Scrum</li>
+								<p ng-show="showDaily">Pratique du daily meeting pendant les dix jours de projet à la fin de ma formation Java/JEE. Utilisation d'un board.</p>
 							</ul>								
 						</div>
 					</div>
@@ -82,9 +83,10 @@
 						<div class="tuile">
 							<h3>Web</h3>
 							<ul>
-								<li>Html5</li>
-								<li>Css3, Bootstrap</li>
-								<li  ng-click="showJsAngular=!showJsAngular">JavaScript, AngularJs</li>
+								<li class="liClicable">Html5</li>
+								<li class="liClicable" ng-click="showCssBootstrap=!showCssBootstrap">Css3, Bootstrap</li>
+								<p ng-show="showCssBootstrap">Utilisation de bootstrap pour ce CV, avec css personnalisé.</p>
+								<li class="liClicable" ng-click="showJsAngular=!showJsAngular">JavaScript, AngularJs</li>
 								<p ng-show="showJsAngular">Utilisation d'AngularJs pour créer une SPA, plus précisément le module angular-route, utilisation des fonctionnalités ng-show, ng-click, ng-repeat ect. Par exemple, ce clic.</p>
 							</ul>								
 						</div>
@@ -95,8 +97,8 @@
 						<div class="tuile">
 							<h3>Base de données</h3>
 							<ul>
-								<li>Sql</li>
-								<li  ng-click="showSomething=!showSomething">Merise</li>
+								<li class="liClicable">Sql</li>
+								<li class="liClicable"  ng-click="showSomething=!showSomething">Merise</li>
 								<p ng-show="showSomething"></p>
 							</ul>								
 						</div>

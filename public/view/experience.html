@@ -1,6 +1,29 @@
 
 <main>
 	<div class="row">
+		<section class="col-md-2 col-xs-2 col-md-offset-1 center-block">
+			<div class="tuile">
+				Septembre 2015-Décembre 2015
+			</div>
+		</section>
+		<section class="col-md-4 col-xs-4 center-block experiences">
+			<div class="tuile">
+				<h2>Développeur C++</h2>
+				<h3>Sopra Steria - Nantes Saint Herblain (44)</h3>
+				<p> <abbr title="Tierce Maintenance Applicative">TMA</abbr> Sopra Alis - équipe d'informaticiens - 5 personnes</p>
+				<ul>
+					<li class="liClicable" ng-click="showAssistance=!showAssistance">Assistance et correction des bugs </li>
+					<p ng-show="showAssistance">Dans le cadre de la TMA, il m'était demandé de résoudre des anomalies, soit en passant des scripts sur la base de données, soit en corrigeant le code pour débloquer les contrats des clients.</p>
+					<li class="liClicable" ng-click="showEvol=!showEvol">Développement d'évolutions C++ sur l'application</li>
+					<p ng-show="showEvol">Pour répondre aux besoins du client et améliorer le logiciel, il m'a été demandé de coder une évolution. Le code était en C++ et il était nécessaire de créer de nouvelles tables dans la base de données, lesquelles il fallait utiliser. L'évolution devait éviter les régressions, les modifications impactant plusieurs écrans de l'application.</p>
+					<li>Utilisation régulière des bases de données</li>
+					<li class="liClicable" ng-click="showTests=!showTests">Campagne de tests</li>
+					<p ng-show="showTests">Il m'a été demandé à plusieurs reprises de dérouler des scénarios de tests pour s'assurer du bon fonctionnement du logiciel après modification.</p>
+				</ul>
+			</div>
+		</section>
+	</div>
+	<div class="row">
 		
 			<section class="col-md-2 col-xs-2 col-md-offset-1 center-block">
 				<div class="tuile">
@@ -12,9 +35,11 @@
 					<h2>Développeur C++ Image</h2>
 					<h3>CNRS - CENBG - Gradignan (33)</h3>
 					<p> Analyse d’organismes biologiques à l’aide d’un faisceau de particules – Equipe pluridisciplinaire biologie-chimie - 10 personnes </p>
+					<p>L'objectif du stage était d'extraire une matrice d'atténuation pour corriger les images de l'échantillon. En effet, l'atténuation du faisceau de particules lorsqu'il traverse l'échantillon n'était pas prise en compte.</p>
 					<ul>
-						<li>Détermination de l’orientation de l’échantillon dans les images </li>
-						<li>Extraction d’une matrice d’atténuation du programme C DISRA, intégration en C++ et optimisations</li>
+						<li class="liClicable" ng-click="showOrientation=!showOrientation">Détermination de l’orientation de l’échantillon dans les images </li>
+						<p ng-show="showOrientation">Pour faire les calculs, il était nécessaire de déterminer par quel côté le faisceau de particules arrivait sur chaque image. </p>
+						<li class="liClicable" ng-click="showExtraction=!showExtraction">Extraction d’une matrice d’atténuation du programme C DISRA, intégration en C++ et optimisations</li>
 						<li>Validation des données</li>
 					</ul>
 				</div>

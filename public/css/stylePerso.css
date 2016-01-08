@@ -22,7 +22,8 @@ margin-bottom: 1em;
 }
 
 li{
-margin-bottom: 0.3em;
+    list-style-type: none;
+    margin-bottom: 0.3em;
 }
 
 .jumbotron{
@@ -51,3 +52,8 @@ margin-bottom: 0.3em;
 .navbar-custom .navbar-brand {
    color:#000000;
 }
+
+li.liClicable::before {
+    content :"+ ";
+};
+
