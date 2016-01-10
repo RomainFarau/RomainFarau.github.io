@@ -22,7 +22,7 @@ margin-bottom: 1em;
 }
 
 li{
-    list-style-type: none;
+    
     margin-bottom: 0.3em;
 }
 
@@ -54,6 +54,7 @@ li{
 }
 
 li.liClicable::before {
+    list-style-type: none;
     content :"+ ";
 };
 
