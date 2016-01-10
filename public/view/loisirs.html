@@ -34,8 +34,10 @@
 						<div class="tuile">
 							<h3>Jeux-vidéo</h3>
 							<ul>
-								<li>Stratégie</li>
-								<li>RPG</li>
+								<li class="liClicable" ng-click="showStrat=!showStrat">Stratégie, gestion</li>
+								<p ng-show="showStrat">Age of Empire 2, Warcraft 3, Starcraft 2, Europa Universalis IV, Medieval : Total war 2</p>
+								<li class="liClicable" ng-click="showRpg=!showRpg">RPG</li>
+								<p ng-show="showRpg">Final Fantasy, The witcher, Mass Effect, Baldur's Gate, Pillars of Eternity</p>
 							</ul>
 						</div>
 					</div>
