@@ -31,6 +31,7 @@ li{
     border-top: solid black 0.1em;
     border-bottom: solid black 0.1em;
     margin-top: 1em;
+    text-align: center;
 }
 
 .navbar-custom {
@@ -58,3 +59,6 @@ li.liClicable::before {
     content :"+ ";
 };
 
+h2{
+    text-align: center;
+}
