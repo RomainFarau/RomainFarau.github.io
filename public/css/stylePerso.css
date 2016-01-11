@@ -11,7 +11,7 @@
     border-radius: 0.5em;
     border: solid black 0.1em;
     margin-bottom: 0.1em;
-    margin-top: 0.1em;
+    margin-top: 0.2em;
 }
 
 [ng-click],
@@ -66,4 +66,7 @@ h2{
     text-align: center;
     padding: 0em;
     margin:0em;
+    padding-bottom: 0.1em;
+    margin-bottom: 0.1em;
+    padding-top: 0.1em;
 }
