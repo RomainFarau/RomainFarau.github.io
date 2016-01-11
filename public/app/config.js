@@ -1,5 +1,5 @@
 "use strict"
-angular.module("cvModule",['ui.router','ui.bootstrap'])
+angular.module("cvModule",['ui.router','ui.bootstrap','ngAnimate'])
 .config(function ($stateProvider, $urlRouterProvider){
 	$urlRouterProvider.otherwise('/accueil');
 

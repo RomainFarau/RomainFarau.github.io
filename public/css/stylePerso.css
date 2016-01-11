@@ -70,3 +70,17 @@ h2{
     margin-bottom: 0.1em;
     padding-top: 0.1em;
 }
+
+.animate-show {
+  opacity: 1;
+}
+
+.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+
+.animate-show.ng-hide {
+  line-height: 0;
+  opacity: 0;
+}

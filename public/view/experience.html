@@ -38,9 +38,9 @@
 					<p>L'objectif du stage était d'extraire une matrice d'atténuation pour corriger les images de l'échantillon. En effet, l'atténuation du faisceau de particules lorsqu'il traverse l'échantillon n'était pas prise en compte.</p>
 					<ul>
 						<li class="liClicable" ng-click="showOrientation=!showOrientation">Détermination de l’orientation de l’échantillon dans les images </li>
-						<p ng-show="showOrientation">Pour faire les calculs, il était nécessaire de déterminer par quel côté le faisceau de particules arrivait sur chaque image. </p>
+						<p class="animate-show" ng-show="showOrientation">Pour faire les calculs, il était nécessaire de déterminer par quel côté le faisceau de particules arrivait sur chaque image. </p>
 						<li class="liClicable" ng-click="showExtraction=!showExtraction">Extraction d’une matrice d’atténuation du programme C DISRA, intégration en C++ et optimisations</li>
-						<p ng-show="showExtraction">Il fallait isoler la partie du code calculant la matrice d'atténuation du code C DISRA, et ne garder que les parties utiles, DISRA calculant bien d'autres choses avec la matrice d'atténuation.</p>
+						<p class="animate-show" ng-show="showExtraction">Il fallait isoler la partie du code calculant la matrice d'atténuation du code C DISRA, et ne garder que les parties utiles, DISRA calculant bien d'autres choses avec la matrice d'atténuation.</p>
 						<li>Validation des données</li>
 					</ul>
 				</div>
@@ -62,9 +62,9 @@
 					<h4>Refactoring de macro Excel en logiciel C++ Qt</h4>
 					<ul>
 						<li class="liClicable" ng-click="showOdbc=!showOdbc">Connexion base de données ODBC</li>
-						<p ng-show="showOdbc">Utilisation de QSqlDatabase</p>
+						<p class="animate-show" ng-show="showOdbc">Utilisation de QSqlDatabase</p>
 						<li class="liClicable" ng-click="showInterface=!showInterface">Création interface graphique</li>
-						<p ng-show="showInterface">Auparavant, le reporting d'informations fonctionnait à l'aide d'une macro Excel, il fallait afficher ces informations dans une interface créé avec Qt.</p>
+						<p class="animate-show" ng-show="showInterface">Auparavant, le reporting d'informations fonctionnait à l'aide d'une macro Excel, il fallait afficher ces informations dans une interface créé avec Qt.</p>
 						<li>Ajout de fonctionnalités</li>
 					</ul>
 				</div>
